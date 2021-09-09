@@ -195,4 +195,3 @@ class SortingOptions extends Component {
     )
   }
 }
-
