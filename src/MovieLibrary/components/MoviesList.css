@@ -1,0 +1,88 @@
+.movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color:rgb(214, 207, 207);
+  color:black;
+}
+
+.movies-list > .items {
+display: flex;
+flex-wrap: wrap;;
+padding:50px;
+
+
+}
+
+.expanded-movie-item {
+  width: 40%;
+  height:50%;
+  position: fixed; 
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 20px;
+  overflow: auto;
+}
+
+.expanded-movie-item h4 {
+  display: inline;
+  overflow: auto;
+ 
+}
+
+.expanded-movie-item  > .description {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.movie-list-item {
+  cursor:pointer;
+  height: 300px;
+  width:300px;
+  
+  border:none;
+  position:relative;
+ background-color: gray;
+ margin-bottom: 5px;
+ margin-right:5px;
+ 
+
+  
+
+}
+
+.movie-list-item.selected {
+  text-decoration: underline;
+}
+
+
+.title{
+  
+  color:red;
+  background-color: lightgray;
+  position: absolute;
+  margin-top:-30px;
+  
+  
+  
+}
+
+.btn-EMI{
+ 
+  float: right;
+
+}
+
+.movie-list-item:hover {
+  cursor:pointer;
+  height: 300px;
+  width:300px;
+  
+  border:1px solid black;
+  position:relative;
+ background-color: gray;
+ margin-bottom: 5px;
+ margin-right:5px;
+ 
+}
